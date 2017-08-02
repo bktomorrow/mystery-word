@@ -1,0 +1,30 @@
+.amtGuesses {
+  float: right;
+  text-align: right;
+}
+
+.submission {
+  text-align: center;
+}
+
+.guesses {
+  padding-right: 100px;
+}
+
+.centerContent {
+  text-align: center;
+  padding-top: 10%;
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  float: left;
+  margin: 0px;
+}
+
+.word {
+  text-align: center;
+}

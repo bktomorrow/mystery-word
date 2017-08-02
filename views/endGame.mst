@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>HangMan EndGame</title>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <h1>
+      {{won}}
+    </h1>
+    <p class="word">
+      The word was <b>{{word}}</b> and you had {{guesses}} remaining guesses
+    </p>
+    <div class="submission">
+      <form class="" action="" method="post">
+        <input type="text" name="replay" value="" placeholder="(y)es/(n)o" autocomplete="off">
+        <button type="submit" name="restart" value="restart"> Play again? </button>
+      </form>
+    </div>
+  </body>
+</html>
